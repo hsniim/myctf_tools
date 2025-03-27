@@ -1,0 +1,14 @@
+khusus di kali-linux untuk menggunakan tools "long_to_bytes" ("ltb.py") kita harus menggunakan lingkungan virtual python dengan library "PyCryptodome"
+caranya : 
+1. buat lingkungan virtual python nya, ketikkan ini pada cli kali-linux
+"python3 -m venv pycryptodome-venv"
+
+2. aktifkan lingkungan virtual python nya, ketikkan perintah 
+"source pycryptodome-venv/bin/activate"
+
+3. kita install library "PyCryptodome"nya pada lingkungan virtual python tersebut, ketikkan perintah
+"pip install pycryptodome"
+setelah di install kita bisa menggunakan tools "long_to_bytes"nya di linkungan virtual tersebut
+
+4. jika sudah selesai menggunakan tools "long_to_bytes" non-aktifkan lingkungan virtualnya, ketikkan perintah 
+"deactivate"
